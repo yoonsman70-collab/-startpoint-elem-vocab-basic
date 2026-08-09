@@ -1,5 +1,5 @@
 // 부비 영단어 기초 - 서비스 워커
-const CACHE_NAME = 'booby-elem-basic-v2';
+const CACHE_NAME = 'booby-elem-basic-v4';
 const APP_SHELL = [
   './',
   './index.html',

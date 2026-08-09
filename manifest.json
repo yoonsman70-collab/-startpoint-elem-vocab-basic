@@ -1,7 +1,7 @@
 {
-  "name": "시작점 AI 영어 - 초등영단어 기초",
-  "short_name": "부비 영단어 기초",
-  "description": "Booby(부비)와 함께하는 초등 기초 영단어 학습 앱",
+  "name": "시작점 AI 영어 - 초등영단어 마스터",
+  "short_name": "부비 영단어 마스터",
+  "description": "Booby(부비)와 함께하는 초등 영단어 마스터 학습 앱 (기본+필수 총정리)",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
