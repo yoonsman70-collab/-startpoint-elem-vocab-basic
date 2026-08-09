@@ -1073,6 +1073,10 @@
   }
 
   checkExistingSession();
+
+  // 화면의 버튼(onclick)에서 호출할 수 있도록 전역으로 노출
+  window.handleLogin = handleLogin;
+  window.handleLogout = handleLogout;
 })();
 </script>
 
