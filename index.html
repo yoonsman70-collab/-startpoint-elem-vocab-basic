@@ -600,7 +600,7 @@
 
   async function fetchVocabWords() {
     try {
-      const res = await fetch('/api/vocab-words?level=elem_basic', { credentials: 'same-origin' });
+      const res = await fetch('/api/vocab-words?level=elem_master', { credentials: 'same-origin' });
       const data = await res.json();
       if (data.ok && data.days && data.days.length > 0) {
         const newSeedDays = [];

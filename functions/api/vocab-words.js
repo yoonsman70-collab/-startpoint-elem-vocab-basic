@@ -1,11 +1,11 @@
 import { jsonResponse } from '../_utils/auth.js';
 
-// 예: /api/vocab-words?level=elem_basic
+// 예: /api/vocab-words?level=elem_master
 export async function onRequestGet(context) {
   const { request, env } = context;
   const db = env.DB;
   const url = new URL(request.url);
-  const levelCode = url.searchParams.get('level') || 'elem_basic';
+  const levelCode = url.searchParams.get('level') || 'elem_master';
 
   const level = await db.prepare('SELECT id, name, color_theme FROM vocab_levels WHERE code = ?').bind(levelCode).first();
   if (!level) {
